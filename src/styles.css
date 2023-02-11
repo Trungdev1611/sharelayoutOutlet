@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.border {
+  border: 1px solid grey;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heightfix {
+  height: 300px;
+  flex-direction: row;
+}
+.heightfix .body {
+  flex: 1;
+  background-color: #ccc;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.redcolor {
+  color: red;
+}
